@@ -1,0 +1,83 @@
+.top-header, .top-header a{
+    color: red;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    color:white;
+    display: block;
+    position: sticky;
+}
+.top-header{
+    text-align: end;
+}
+h2, h3, h5{
+    text-align: center;
+}
+h3
+header img{
+    border-radius: 50%;
+}
+ header ul{
+    list-style-type:none;
+    display: flex;
+}
+ header ul li{
+    margin:10px;
+}  
+ header ul li a{
+    text-decoration: none;
+    color:white;
+}  
+aside{
+    position:sticky;
+    position: -webkit-sticky;
+}
+.container {
+    background-color: rgb(42, 46, 50);
+    height:300px;
+    display: flex;
+}
+.picture{
+    width:300;
+    height:300;
+    box-shadow: 5px rgb(18, 2, 2);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.content{
+    color: white;
+}
+p{
+    padding-left: 35px;
+    padding-right: 15px;
+}
+.skills{
+    display: flex;
+}
+.column1 {
+    width: 30%;
+    padding-left: 20px;
+    align-items: center;
+}
+.column2 img{
+     border: radius 50%;
+     margin:10px;    
+}
+
+footer{
+    color:rgb(19, 5, 51) ;
+    text-align:center;
+    height: 300px;
+}
+.social{
+    margin:40px;
+}
+.contact-list{
+    margin-top: 50px;
+}
+footer span{
+    margin-left: 8px;
+    margin-right: 8px;
+     
+}
